@@ -1,13 +1,13 @@
 # 🛡️ Analisador Automatizado de Logs de Firewall com Python
 
-## 📝 Descrição do Projeto
+ Descrição do Projeto
 Este projeto foi desenvolvido com foco em Segurança da Informação e Cibersegurança para automatizar a análise de logs gerados por firewalls de rede. O objetivo principal é identificar comportamentos maliciosos, especificamente tentativas de ataques por força bruta direcionados à porta 22 (serviço SSH).
 
 A automação processa milhares de eventos de rede em segundos, isolando endereços IP suspeitos que acumulam múltiplos bloqueios e gerando um relatório executivo para tomada de decisão imediata da equipe de resposta a incidentes.
 
 ---
 
-## 🛠️ Tecnologias e Conceitos Aplicados
+Tecnologias e Conceitos Aplicados
 * **Linguagem:** Python 3
 * **Manipulação de Arquivos:** Leitura e processamento de arquivos de texto estruturados (`.log`).
 * **Estrutura de Dados:** Utilização de dicionários para contagem de frequência de eventos de segurança.
@@ -15,13 +15,13 @@ A automação processa milhares de eventos de rede em segundos, isolando endere�
 
 ---
 
-## 📂 Estrutura dos Arquivos
+Estrutura dos Arquivos
 * `firewall.log`: Arquivo que simula o tráfego real de uma rede corporativa, contendo registros de acessos liberados (ALLOWED) e negados (BLOCKED).
 * `analisador.py`: O script em Python desenvolvido para varrer o arquivo de logs, extrair os IPs bloqueados e emitir alertas caso o limiar de segurança seja ultrapassado.
 
 ---
 
-## 📋 Relatório de Saída (Texto Corrido)
+Relatório de Saída (Texto Corrido)
 Quando executado, o script gera um diagnóstico direto e limpo para o administrador de rede:
 
 "RELATÓRIO DE SEGURANÇA - ANÁLISE DE LOGS DE FIREWALL
